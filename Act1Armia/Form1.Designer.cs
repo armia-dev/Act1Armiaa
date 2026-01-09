@@ -50,6 +50,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.Validlbl = new System.Windows.Forms.Label();
             this.Dragpnl.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,6 +85,7 @@
             // 
             // Passtxt
             // 
+            this.Passtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.Passtxt.Location = new System.Drawing.Point(6, 149);
             this.Passtxt.Multiline = true;
             this.Passtxt.Name = "Passtxt";
@@ -236,11 +238,22 @@
             this.label6.Text = "Invite Code";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // Validlbl
+            // 
+            this.Validlbl.AutoSize = true;
+            this.Validlbl.Location = new System.Drawing.Point(167, 323);
+            this.Validlbl.Name = "Validlbl";
+            this.Validlbl.Size = new System.Drawing.Size(35, 13);
+            this.Validlbl.TabIndex = 18;
+            this.Validlbl.Text = "label1";
+            this.Validlbl.Visible = false;
+            // 
             // RegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(328, 353);
+            this.Controls.Add(this.Validlbl);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -291,6 +304,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private System.Windows.Forms.Label Validlbl;
     }
 }
 
